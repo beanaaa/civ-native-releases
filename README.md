@@ -4,7 +4,7 @@
   <img src="assets/civ-native-icon.png" width="96" alt="CIV Native icon">
 </p>
 
-**CIV Native** is a macOS image viewer for RAW, DICOM, and research image inspection. It focuses on dense reviewer workflows: window/level, histograms, linked comparison, line profiles, annotations, and export tools in one native UI.
+**CIV Native** is a macOS image viewer for RAW, DICOM, and research image inspection. It focuses on dense reviewer workflows: window/level, histograms, linked comparison, DICOM 3D volume rendering, line profiles, annotations, and export tools in one native UI.
 
 <p align="center">
   <a href="CIV-Native-0.1.2.app.zip"><strong>Download the latest build</strong></a>
@@ -22,6 +22,14 @@ Open image folders, inspect RAW sidecars, adjust window/level, and keep histogra
 
 <p align="center">
   <img src="assets/01-overview.png" alt="RAW image review in CIV Native">
+</p>
+
+### DICOM 3D Volume Rendering
+
+Open DICOM CT series as a volume, review axial/sagittal/coronal MPR views next to cinematic VR, adjust the VR transfer function, and crop the 3D region from the linked MPR panels.
+
+<p align="center">
+  <img src="assets/06-dicom-3d-volume.png" alt="DICOM CT 3D volume rendering with linked MPR crop controls in CIV Native">
 </p>
 
 ### Linked Compare
@@ -74,9 +82,10 @@ The app is currently distributed as a binary-only preview. Source code may be op
 ## Highlights
 
 - RAW image viewing with sidecar metadata
-- DICOM image and volume-oriented workflows
+- DICOM image, MPR, and 3D volume rendering workflows
 - Fast window/level and histogram controls
 - Side-by-side and linked comparison modes
+- Cinematic VR presets, transfer-function tuning, and 3D crop controls
 - Line profile overlays and profile graph
 - Region, arrow, and text annotations
 - Gray, Bone, Turbo, Viridis, Plasma, Magma, Inferno, Jet, Hot, and HSV color maps
@@ -109,7 +118,7 @@ The app is currently distributed as a binary-only preview. Source code may be op
 
 ## Screenshot Source
 
-The screenshots use RAW conversions of the public-domain image **Chest Xray PA 3-8-2010.png** from Wikimedia Commons.
+The RAW screenshots use RAW conversions of the public-domain image **Chest Xray PA 3-8-2010.png** from Wikimedia Commons. The DICOM volume screenshot is a UI capture from a local sample CT volume.
 
 - Source: https://commons.wikimedia.org/wiki/File:Chest_Xray_PA_3-8-2010.png
 - Author: Stillwaterising
