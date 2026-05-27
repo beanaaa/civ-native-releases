@@ -7,7 +7,7 @@
 **CIV Native** is a macOS image viewer for RAW, DICOM, and research image inspection. It focuses on dense reviewer workflows: window/level, histograms, linked comparison, line profiles, annotations, and export tools in one native UI.
 
 <p align="center">
-  <a href="../../releases/latest"><strong>Download the latest build</strong></a>
+  <a href="CIV-Native-0.1.2.app.zip"><strong>Download the latest build</strong></a>
 </p>
 
 <p align="center">
@@ -58,7 +58,7 @@ Use absolute/relative histograms, display range controls, auto range, W/L fields
 
 ## Download
 
-Download the latest app from [GitHub Releases](../../releases/latest):
+Download the latest app from this repository:
 
 - `CIV-Native-0.1.2.app.zip`
 
